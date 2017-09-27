@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_purple"
+    android:layout_height="match_parent"
+    tools:context="com.example.katiebehrmann.whereimfrom.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/where_im_from_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:background="@android:color/white"
+        android:id="@+id/where_im_from_text"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="WHERE'S SHE FROM"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:onClick="randomizeFrom" />
+
+</RelativeLayout>
